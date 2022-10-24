@@ -62,7 +62,7 @@ function calcularidoso() {
     }
 
     else if (imc2 >= 22.1 && imc2 < 27) {
-        img.src = 'imagens/pesonormal';
+        img.src = 'imagens/normal.png';
     }
 
     else if (imc2 >= 27) {
