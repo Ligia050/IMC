@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+  
+<body>
+    <script src="script.js"></script>
+
+    <div class = "geral">
+        <div class="bloco">
+            <div class ="esquerda">
+                <h1>Calcule seu IMC ! </h1>
+                    <small>
+                        <p>Cálculo de índice de Massa Corporal</p>
+                    </small>
+                <p>Altura</p>
+                <input  placeholder= "ex:1.70" id="altura">
+                <p>Peso</p>
+                <input placeholder = "ex: 40kg" id="peso"><br><br>
+               
+    <select  id="faixaetaria">
+        <option value="a">Adulto</option>
+        <option value="i">Idoso</option>
+    </select>
+
+    <br><br> 
+                <button type="button" id ="button" onclick="calcular()" >Calcule agora</button>
+                <p id = "res">Seu IMC = </p>
+            </div>
+        </div>
+        <img src="imagens/inicial - Editado.png" alt="" class ="img" id ="img">
+    </div>
+
+
+</body>
+  
+</html>
